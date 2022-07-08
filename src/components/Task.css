@@ -10,7 +10,7 @@
   font-size: 18px;
 }
 
-.task-tittle {
+.task-title {
   cursor: pointer;
 }
 
@@ -20,4 +20,5 @@
   border: none;
   font-size: 24px;
   color: chartreuse;
+  margin: 0 5px;
 }

@@ -1,6 +1,6 @@
 import "./AddTask.css";
 import Button from "./Button";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const AddTask = ({ handleTaskAddition }) => {
   const [inputData, setInputData] = useState("");
