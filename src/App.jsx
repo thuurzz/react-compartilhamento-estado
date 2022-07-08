@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./App.css";
 import AddTask from "./components/AddTask";
 import Tasks from "./components/Tasks";
+import Header from "./components/Header";
 
 import { v4 as uuid } from "uuid";
 
@@ -48,6 +49,7 @@ const App = () => {
   return (
     <>
       <div div className="container">
+        <Header>Minhas taferas</Header>
         <AddTask handleTaskAddition={handleTaskAddition} />
         <Tasks
           tasks={tasks}
