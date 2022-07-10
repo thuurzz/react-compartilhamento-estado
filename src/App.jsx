@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     const fetchTasks = async () => {
       const { data } = await axios.get(
-        "https://jsonplaceholder.cypress.io/todos?_limit=10"
+        "https://62cb59441eaf3786ebb830bc.mockapi.io/api/v1/todo"
       );
       setTasks(data);
     };
